@@ -1,0 +1,11 @@
+Process:
+---------Listing Process and Threads----------
+pidin /* get the process and how many threads were executing and its status */
+pidin -p <PID> /*List threads within a specific process*/
+------- Terminate process ----------------
+kill <PID> /* Process can be killed forcefully and it sends the SIGTERM signal, which requests graceful termination*/
+kill -9 <PID> /*o forcefully terminate the process, you can send the SIGKILL signal*/
+slay <process_name> /*The slay utility allows you to terminate a process by its name rather than its PID, which can be more convenient*/
+
+
+
